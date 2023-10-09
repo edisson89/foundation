@@ -1,6 +1,8 @@
+import styles from './about.module.css'
+
 const About = () => {
   return (
-    <div>
+    <div className={styles.about}>
       <h1>QUIENES SOMOS</h1>
       <p>
       

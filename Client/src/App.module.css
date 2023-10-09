@@ -1,7 +1,9 @@
 .app{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  background-color: rgb(160, 160, 180);
+  align-items: center;
+  gap: 10px;
   min-height: 100vh;
-  background-color: rgb(97, 89, 86);
+  
 }
