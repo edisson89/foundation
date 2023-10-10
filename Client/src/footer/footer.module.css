@@ -1,0 +1,39 @@
+.containerBox {
+    display:flex;
+    flex-direction:column;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox {
+    font-size: 20px;
+    width:60%;
+    text-align: center;
+}
+
+.contactList {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.contactList img {
+    width:50px;
+    margin:10px;
+    filter:saturate(0);
+    transition:0.5s;
+}
+.contactList img:hover {
+    filter:saturate(1);
+    transition:0.5s;
+}
+
+.xd {
+    width:230px;
+    margin-top:20px;
+    margin-right:50px;
+}
+
+a {
+    list-style-type: none;
+}

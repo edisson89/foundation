@@ -1,3 +1,32 @@
-.about{
-    display: flex;
+.about {
+    display: inline;
+    background-color:white;
+    color:black;
+    margin-top:-10px;
+    padding-top:80px;
+    height:1000px;
+}
+
+.image {
+    margin-top:-100px;
+    height: 500px;
+    width:100%;
+    object-fit: cover;
+}
+
+.contactTitle {
+    background-color: #2f608d;
+    margin-top:-40px;
+    padding:40px;
+    width:430px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-left:40px;
+    margin-top: 30px;
+    width: 80%;
 }
