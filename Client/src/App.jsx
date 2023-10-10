@@ -10,6 +10,7 @@ import Tienda from './tienda/tienda'
 import Blog from './blob/blob'
 import Contacto from './contacto/contacto'
 import Servicios from './servicios/servicios'
+import Footer from './footer/footer'
 
 function App() {
   
@@ -17,9 +18,8 @@ function App() {
   return (
    
       <div className={styles.app}>
-       <Navbar />
+        <Navbar/>
         <Routes>
-        
           <Route path='/' element={<Home />}  />
           <Route path='/about' element={<About />}  />
           <Route path='/login' element={<Login />}  />
@@ -29,9 +29,8 @@ function App() {
           <Route path='/blog' element={<Blog />}  />
           <Route path='/contacto' element={<Contacto />}  />
           <Route path='/servicios' element={<Servicios />}  />
-          
-
         </Routes>
+        <Footer/>
       </div>
     
   )
