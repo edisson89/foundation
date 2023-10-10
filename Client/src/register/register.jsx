@@ -64,7 +64,7 @@ const Register= ({ register, setRegisterVisible }) => {
       return alert("Error");
     }
     return (
-      <div className={styles.login}>
+      <div className={styles.register}>
         <form className={styles.form} onSubmit={handleSubmit}>
           <label className={styles.loginInput}>Email:</label>
           <br />
