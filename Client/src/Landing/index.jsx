@@ -5,7 +5,8 @@ import PropTypes from 'prop-types'
 const Landing = ({connected}) => {
   return (
     <div className={styles.landing}>
-      <h1>Bienvenidos a Fundacion </h1>
+      <h1>Bienvenidos </h1>
+      <h2>Escuela Filarmonica entre Cuerdas</h2>
       <NavLink to={'/home'}>
         <button>Navegar  a Inicio</button>
       </NavLink>
