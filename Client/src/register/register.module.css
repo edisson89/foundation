@@ -1,6 +1,7 @@
-.login{
+.register{
     display: flex;
     flex-direction: column;
+    width: 100%;
     justify-content: center;
     background-image: radial-gradient(rgb(0,225,255),rgb(34, 120, 177),rgb(97, 39, 92));
     min-height: 100vh;
