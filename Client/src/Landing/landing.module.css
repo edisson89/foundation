@@ -1,6 +1,8 @@
 .landing{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;    
     min-height: 100vh;
     background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
     url('../assets/countries.svg');
