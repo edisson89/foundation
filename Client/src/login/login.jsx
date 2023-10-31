@@ -1,8 +1,8 @@
 
 const Login = () => {
   return (
-    <div>login</div>
+    <div>configurando login</div>
   )
 }
-
+  
 export default Login
