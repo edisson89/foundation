@@ -6,10 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js"
-    
   },
   "keywords": [],
-  "author": "",
+  "author": "EM",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
@@ -19,9 +18,11 @@
     "express": "^4.18.2",
     "json-server": "^0.17.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.22",
     "pg": "^8.10.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
