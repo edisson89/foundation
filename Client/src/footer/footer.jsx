@@ -1,4 +1,3 @@
-import React from 'react';
 import image from '../assets/Entre Cuerdas logo.png'
 import styles from './footer.module.css'
 
@@ -12,9 +11,9 @@ const Footer = () => {
             <img className={styles.xd} src={image} alt="image"/>
             <p className={styles.textBox}>Visita nuestras redes sociales para estar al tanto de las noticias más importantes:</p>
             <div className={styles.contactList}>
-                <a target="_blank" href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={instagram} alt="image"/></a>
-                <a target="_blank" href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={facebook} alt="image"/></a>
-                <a target="_blank" href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={whatsapp} alt="image"/></a>
+                <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={instagram} alt="image"/></a>
+                <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={facebook} alt="image"/></a>
+                <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={whatsapp} alt="image"/></a>
             </div>
         </div>
     );
