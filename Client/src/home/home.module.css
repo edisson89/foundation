@@ -1,0 +1,16 @@
+.portadaContainer {
+    margin-top:-10px;
+    text-align: center;
+
+}
+
+.portadaImagen {
+    width:100%;
+    height:100%;
+}
+
+.blog {
+    background-color: white;   
+    margin-top:-30px;
+    height:500px;
+}

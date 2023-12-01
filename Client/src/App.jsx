@@ -15,6 +15,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Register from './register/register'
 import Landing from './Landing'
+import Footer from './footer/footer'
 
 function App() {
   const [access, setAccess] = useState(() => {
@@ -101,7 +102,7 @@ function App() {
               setRegisterVisible={setRegisterVisible}
             />
           }
-        ></Route> 
+         /> 
         {access ?  (
           <>
           <Route path='/home' element={<Home />}  />
@@ -113,7 +114,8 @@ function App() {
           <Route path='/tienda' element={<Tienda />}  />
           <Route path='/blog' element={<Blog />}  />
           <Route path='/contacto' element={<Contacto />}  />
-          <Route path='/servicios' element={<Servicios />}  />  
+          <Route path='/servicios' element={<Servicios />}  /> 
+           
           </>
         ):
         <>
@@ -137,23 +139,18 @@ function App() {
                   setRegisterVisible={setRegisterVisible}
                 />
               }
-            ></Route>
+            />
         </>
       }
 
           
 
         </Routes>
+        <Footer />
       </div>
     
+     
   )
 }
 
 export default App
-/*
-Paleta de colores
-#231f20 (gris)
-#0097dc (celeste)
-#00000 (negro)
-#ffffff (blanco)
-*/ 

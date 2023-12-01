@@ -1,21 +1,23 @@
 import { NavLink } from "react-router-dom"
 import styles from './navbar.module.css'
+import logo from '../assets/Entre Cuerdas logo.png';
 
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <h1>Escuela Filarmonica entre Cuerdas</h1>
-      <h2>Fundación esperanza y resiliencia</h2>
-      <NavLink to="/home">Inicio</NavLink>
-      <NavLink to="/about">Nosotros</NavLink>
-      <NavLink to="/programas">Programas</NavLink>
-      <NavLink to="/servicios">Servicios</NavLink>
-      <NavLink to="/galeria">Galeria</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
-      <NavLink to="/tienda">Tienda</NavLink>      
-      <NavLink to="/donaciones">Donaciones</NavLink>      
-      <NavLink to="/contacto">Contacto</NavLink>     
-
+      <div className={styles.imageBackground}>
+        <NavLink to="/"><img className={styles.logo} src={logo}/></NavLink>
+      </div>
+      <div className={styles.navigationContainer}>
+        <NavLink className={styles.navigationList} to="/about"><button>Nosotros</button></NavLink>
+        <NavLink className={styles.navigationList} to="/programas"><button>Programas</button></NavLink>
+        {/* <NavLink className={styles.navigationList} to="/servicios"><button>Servicios</button></NavLink> */}
+        <NavLink className={styles.navigationList} to="/galeria"><button>Galería</button></NavLink>
+        <NavLink className={styles.navigationList} to="/blog"><button>Blog</button></NavLink>
+        <NavLink className={styles.navigationList} to="/tienda"><button>Tienda</button></NavLink>
+        {/* <NavLink className={styles.navigationList} to="/donaciones"><button>Donaciones</button></NavLink>       */}
+        <NavLink className={styles.navigationList} to="#finalFooter"><button>Contacto y donaciones</button></NavLink>    
+      </div>   
     </div>
   )
 }

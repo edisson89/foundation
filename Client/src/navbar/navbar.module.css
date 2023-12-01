@@ -1,48 +1,57 @@
 .navbar {
     display: flex;
+    position:sticky;
+    top:0px;
     justify-content: space-between;
-    background-color: aquamarine;
-    height: 5rem;
-    padding: 1%;
-    justify-content: center;
+    height: 3rem;
+    padding-top: 1%;
+    padding-bottom:1%;
     align-items: center;
-    align-content: center;
-    background-image: linear-gradient(
-    40deg,
-    #f4f4f5 0,
-    #5344c5 16.67%,
-    rgb(147, 132, 242) 45%,
-    rgb(80, 38, 92) 75%,
-    rgb(244, 195, 246) 100%   
-    
-  );
+    background-color: #302b2c;
+    width:100%;
+    box-shadow: 1px 1px 25px black;
+    z-index:1;
+}
+
+.imageBackground {
+    background-color: #2f608d;
+    border-radius: 100%;
+    margin-left:20px;
+    height:140px;
+    width:140px;
+}
+
+.logo {
+    max-width:120px;
+    max-height:100px;
+    margin-top:2.5em;
+    margin-left:0.7em;
+}
+
+
+.navigationContainer {
+    justify-content: end;
 
 }
-h1{
-  display: flex;
-  font-size: 25px;
+
+.navigationList {
+    background-color: #2f608d;
+    color:white;
+    margin-right:10px;
 }
-h2{
-  display: flex;
-}
-navlink{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   
-}
- .button {
+
+.button {
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
-    font-size: 1em;
+    font-size: 5px;
     font-weight: 500;
     font-family: inherit;
     background-color: #c5c2d3;
     cursor: pointer;
-    transition: border-color 0.25s;
+    transition: 0.25s;
     margin: 1%;
-  }
-  .button:hover {
+}
+.button:hover {
     border-color: #b3b6f8;
-  }
+}
