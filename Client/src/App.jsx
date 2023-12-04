@@ -48,7 +48,7 @@ function App() {
 
   async function register(input) {
     const { data } = await axios.post(
-      "http://localhost:3001/user/create/",
+      "http://13.59.245.39:8080/user/create/",
       input
     );
 
@@ -61,7 +61,7 @@ function App() {
   }
 
   async function login(input) {
-    const { data } = await axios.post("http://localhost:3001/user/get/", input);
+    const { data } = await axios.post("http://13.59.245.39:8080/user/get/", input);
     
     if (data.user === "validated") {
       setAccess(true);
