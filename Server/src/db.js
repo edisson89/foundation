@@ -4,13 +4,13 @@ require("dotenv").config();
 const fs = require('fs');
 const path = require('path');
 const { 
-  DB_USER, DB_PASSWORD, DB_HOST,
+  DB_USER, DB_PASSWORD, DB_HOST,PORT
 } = process.env;
 
 const sequelize = new Sequelize(`database-1`, `${DB_USER}`, `${DB_PASSWORD}`, {
   host: `${DB_HOST}`,
   dialect: 'postgres',
-  port: 5432,
+  port: `${PORT}`,
 });
 
 const basename = path.basename(__filename);
