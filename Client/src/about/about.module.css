@@ -1,10 +1,15 @@
 .about {
-    display: inline;
-    background-color:white;
-    color:black;
-    margin-top:-10px;
-    padding-top:80px;
-    height:1000px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin-top: -10px;
+    padding-top: 80px;
+    height: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
 }
 
 .image {

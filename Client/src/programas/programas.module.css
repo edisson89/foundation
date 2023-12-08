@@ -1,0 +1,12 @@
+.programas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    color: black;
+    font-size: 25px;
+    margin: 2%;
+}

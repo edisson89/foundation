@@ -1,7 +1,11 @@
+import contacto from "../assets/Portada/contactanosPiano.jpg";
+import styles from './contacto.module.css'
 
 const Contacto = () => {
   return (
-    <div>Contacto</div>
+    <div className={styles.contacto}>
+      <img src={contacto} alt="contacto" />
+    </div>
   )
 }
 

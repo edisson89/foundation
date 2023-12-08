@@ -12,7 +12,7 @@ const Footer = () => {
             <p className={styles.textBox}>Visita nuestras redes sociales para estar al tanto de las noticias más importantes:</p>
             <div className={styles.contactList}>
                 <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={instagram} alt="image"/></a>
-                <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={facebook} alt="image"/></a>
+                <a target="_blank" rel='noreferrer' href="https://www.facebook.com/cfentrecuerdasoficial"><img src={facebook} alt="image"/></a>
                 <a target="_blank" rel='noreferrer' href="https://www.instagram.com/p/CAwDkLsJNZv/"><img src={whatsapp} alt="image"/></a>
             </div>
         </div>

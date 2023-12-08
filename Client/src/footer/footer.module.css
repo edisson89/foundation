@@ -4,6 +4,7 @@
     height: 350px;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .textBox {
@@ -16,12 +17,22 @@
     display:flex;
     flex-direction:row;
     justify-content: center;
+background-color: black;
+    width: 100%;
+    height: 3rem;
+    align-items: center 
 }
 .contactList img {
-    width:50px;
-    margin:10px;
-    filter:saturate(0);
-    transition:0.5s;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    margin: 10px;
+    filter: saturate(0);
+    transition: 0.5s;
+    padding: 2px;
+    height: 38px;
+    border-radius: 10px;
+
 }
 .contactList img:hover {
     filter:saturate(1);
@@ -29,9 +40,15 @@
 }
 
 .xd {
-    width:230px;
-    margin-top:20px;
-    margin-right:50px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;  
+    gap: 1rem;  
 }
 
 a {

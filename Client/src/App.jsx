@@ -93,6 +93,8 @@ function App() {
    
       <div className={styles.app}>
        <Navbar logout={logout} />
+       <Home /> 
+       <br /><br /> 
         <Routes>
         <Route
           path="/register"
